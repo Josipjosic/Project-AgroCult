@@ -1,0 +1,507 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#divMainHeaderBar {
+  /* Main Menu style  */
+  border-top: solid #282e40 23px;
+  z-index: 2;
+  position: relative;
+}
+
+#divMainMenuWrap {
+  margin: 5px auto;
+  background-color: #10181a;
+  background-color: white;
+  z-index: 3;
+  position: relative;
+}
+
+#divMainMenu {
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#divMainMenuCol1 {
+  float: left;
+  width: 40%;
+}
+
+#divMainMenuCol1 img {
+  width: 150px;
+  height: 150px;
+  margin-top: -25px;
+}
+
+#divMainMenuCol2 {
+  float: right;
+  width: 55%;
+  text-align: right;
+  margin-top: 20px;
+}
+
+/* Main Menu style END */
+.mainMenu1 {
+  /* Menu dropdown style */
+  font-weight: bold;
+  z-index: 3;
+}
+
+.mainMenu1 li {
+  list-style-type: none;
+  float: left;
+  position: relative;
+}
+
+.mainMenu1 a {
+  text-decoration: none;
+  color: #10181a;
+  font-size: 20px;
+  margin-right: 45px;
+}
+
+.mainMenu1 a:hover {
+  color: #1caf0c;
+}
+
+.mainMenu1 li ul {
+  position: absolute;
+  display: none;
+  padding: 0px 0px 0px 17px;
+}
+
+.mainMenu1 li:hover ul {
+  display: block;
+}
+
+.mainMenu1 li ul a {
+  float: right;
+  width: 40px;
+  padding-top: 5px;
+  font-size: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.mainMenu1 li ul a:hover {
+  color: #1caf0c;
+}
+
+#divMainHeaderBar::after {
+  content: "";
+  display: block;
+  width: 250px;
+  height: 55px;
+  position: absolute;
+  right: -15px;
+  background: #fff;
+  top: -30px;
+  -webkit-transform: skew(-30deg);
+          transform: skew(-30deg);
+}
+
+/* Menu dropdown style END */
+#divMainHeaderWrap {
+  /* Main Header ++ Slider*/
+  background-color: #282e40;
+  padding: 40px 0 60px 0;
+}
+
+#divMainHeaderWrap h1 {
+  position: absolute;
+  color: #128305;
+  float: left;
+  margin-left: 20%;
+  margin-top: 0;
+  font-size: 45px;
+  color: white;
+}
+
+#divMainHeaderWrap span {
+  margin-left: 57%;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #1caf0c;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#divMainHeaderWrap #divMainHeader {
+  width: 1200px;
+  margin: 9% 0 5% 21%;
+  position: relative;
+  z-index: 78;
+}
+
+#divMainHeaderWrap #divMainHeader .flexslider {
+  width: 1200px;
+}
+
+#divMainHeaderWrap::after {
+  width: 54%;
+  position: absolute;
+  top: 0;
+  right: -495px;
+  content: "";
+  background: #fff;
+  display: block;
+  height: 100%;
+  -webkit-transform: skew(50deg);
+          transform: skew(50deg);
+  z-index: 1;
+}
+
+/* Main Header ++ Slider END*/
+#divHeaderButton a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 45px;
+  margin: 30px 20px 0 380px;
+  background-color: #282e40;
+  border: solid 2px #10181a;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+#divHeaderButton a:hover {
+  color: #1caf0c;
+}
+
+#divInfoNewsMain {
+  /*Div NEWS Main*/
+  width: 1200px;
+  margin: 5% auto 0 auto;
+}
+
+#divInfoNewsMain a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 65px;
+  margin: 50px 0 0 250px;
+  background-color: #282e40;
+  border: solid 2px #10181a;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+#divInfoNewsMain a:hover {
+  color: #1caf0c;
+}
+
+#divInfoNewsCol1 {
+  width: 50%;
+  float: left;
+}
+
+#divInfoNewsCol1 img {
+  margin: 3% 0% 0 5%;
+  width: 650px;
+  height: 400px;
+}
+
+#divInfoNewsCol2 {
+  width: 40%;
+  float: right;
+  padding-left: 5%;
+}
+
+#divInfoNewsCol2 h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  -webkit-text-decoration: underline #128305 5px;
+          text-decoration: underline #128305 5px;
+}
+
+#divInfoNewsCol2 p {
+  font-size: 18px;
+}
+
+#divInfoNewsCol2 a {
+  padding: 10px 15px;
+  margin-top: 50px;
+}
+
+#divNewsEditForm {
+  width: 1200px;
+  margin-left: 30%;
+}
+
+#divNewsEditForm h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#divNewsEditForm p {
+  font-size: 18px;
+}
+
+#divNewsEditForm #spremi, #divNewsEditForm #delete {
+  border-radius: 5px 1px;
+  width: 100px;
+  height: 30px;
+  border-color: #10181a;
+  margin-right: 10px;
+}
+
+#divNewsEditForm #spremi:hover, #divNewsEditForm #delete:hover {
+  background-color: #10181a;
+  color: #fff;
+}
+
+#divNewsEditForm textarea {
+  border-radius: 5px 1px;
+  resize: none;
+}
+
+#divNewsEditForm label {
+  font-weight: bold;
+}
+
+/*Div NEWS Main END*/
+#divMainTabsWrap {
+  /*Div UI TABS Main */
+  height: 600px;
+  width: 1600px;
+  margin-top: 5%;
+  background-color: #282e40;
+  color: white;
+  text-align: center;
+}
+
+#divMainTabsWrap h3 {
+  padding-top: 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+  -webkit-text-decoration: underline #1caf0c;
+          text-decoration: underline #1caf0c;
+}
+
+/*Div UI TABS Main END*/
+#divMainNewsWrap {
+  /*Div MAIN NEWS */
+  height: 550px;
+  margin-left: 15%;
+  background-color: #282e40;
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+
+#divMainNews {
+  width: 1500px;
+  padding-left: 8%;
+  padding-top: 10px;
+}
+
+#divMainNews .gridLastItem {
+  margin-right: 0 !important;
+}
+
+#divMainNews .gridCol3 {
+  border: white 1px solid;
+  width: 406px;
+  height: 347px;
+  float: left;
+  margin-right: 5.5%;
+}
+
+#divMainNews .gridCol3 > h2 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  -webkit-text-decoration: underline #1caf0c;
+          text-decoration: underline #1caf0c;
+}
+
+#divMainNews ul {
+  list-style-type: none;
+}
+
+#divMainNews > h2 {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 40px;
+  -webkit-text-decoration: underline #1caf0c;
+          text-decoration: underline #1caf0c;
+}
+
+#divMainNews h4 {
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#divMainNews p {
+  text-align: center;
+  color: lightgray;
+  padding: 0 10px 0 10px;
+}
+
+#divMainNews a {
+  display: inline-block;
+  color: #10181a;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 45px;
+  margin: 25px 0 20px 112px;
+  background-color: #fff;
+  border: solid 2px #10181a;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+#divMainNews a:hover {
+  color: #fff;
+  background-color: #128305;
+  border-color: #10181a;
+}
+
+#divMainNews img {
+  text-align: center;
+}
+
+#divInsertFormWrap {
+  margin: 0 auto;
+  height: 600px;
+}
+
+#divInsertFormCol1 {
+  float: left;
+  width: 50%;
+}
+
+#divInsertFormCol1 > img {
+  width: 900px;
+  height: 600px;
+}
+
+#divInsertFormCol2 {
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+
+#divInsertFormCol2 h2 {
+  font-size: 75px;
+  margin-top: -25px;
+}
+
+#divInsertFormCol2 span {
+  color: #1caf0c;
+}
+
+#divInsertFormCol2 input {
+  background-color: #282e40;
+  width: 400px;
+  height: 75px;
+  border: none;
+  color: #fff;
+  padding-left: 20px;
+}
+
+#divInsertFormCol2 textarea {
+  background-color: #282e40;
+  width: 400px;
+  height: 75px;
+  border: none;
+  resize: none;
+  color: #fff;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+#divInsertFormCol2 #divInsertBtn input {
+  width: 100px;
+  padding: 0px;
+  height: 50px;
+  border-radius: 2px;
+}
+
+#divFooterWrap {
+  background-color: #282e40;
+  padding-top: 20px;
+  margin-top: 150px;
+}
+
+#divFooterWrap .gridLastItem {
+  margin-right: 0 !important;
+}
+
+#divFooterWrap .gridCol4 {
+  width: 300px;
+  height: 320px;
+  float: left;
+  margin-right: 3.5%;
+}
+
+#divFooterWrap .gridCol4 > h2 {
+  color: #1caf0c;
+}
+
+#divFooterWrap .gridCol4 > p {
+  color: #fff;
+}
+
+#divFooterWrap .gridCol4 > a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#divFooterWrap .gridCol4 input {
+  background-color: lightgrey;
+  padding: 15px 0 15px 15px;
+  color: black;
+}
+
+#divFooterWrap .gridCol4Pages {
+  text-align: center;
+}
+
+#divFooterWrap .gridCol4Recent > p {
+  font-size: 12px;
+}
+
+#divFooterWrap .gridCol4Recent span img {
+  float: left;
+  padding-right: 5px;
+}
+
+#divFooterWrap .listBoxStyle2 {
+  margin-left: 14.3%;
+}
+
+#divFooterWrap li {
+  list-style-type: none;
+}
+
+#divFooterWrap .gridCol4Newsletter > a {
+  display: inline-block;
+  color: #10181a;
+  text-decoration: none;
+  padding: 7px 25px;
+  margin: 25px 0 20px 2px;
+  background-color: #1caf0c;
+  font-weight: bold;
+  border-radius: 2px;
+}
+/*# sourceMappingURL=style.css.map */

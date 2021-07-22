@@ -1,0 +1,23 @@
+1. Prijelom HTML CSS
+- Potrebno je napraviti potpuno novi prijelom HTML i CSS, po uzoru kako smo to radili u nekoliko vježbi.
+1.1 Glavna navigacija mora imati bar jedan dropdown podizbornik, može npr. na Fruits.
+
+2. JS
+2.1 Potrebno je ugraditi Flexslider - slika-1 označava gdje bi trebao biti flexslider, treba vrtiti nekoliko slideova sa slikama, nešto primjereno uklopite. Ukoliko želite možete ugraditi i neki drugi slider, ne mora nužno biti flexslider.
+
+2.2 Potrebno je ugraditi jQuery UI Tabs na mjesto prikaza proizvoda kao na slika-2 označen je primjer tabova koji bi trebali prikazivati npr 3 kategorije voća i za svaku kategoriju jedan tab prikazuje 3 proizvoda-voća
+
+2.3 Složiti dizajnom formu kao na slika-3 i napraviti PHP kod koji će na submit button GET metodom prikupiti podatke iz svih polja u lokalne varijable a nakon toga pomoću mail() PHP funkcije poslati na mail (ovo neće raditi jer xampp nema podešen outgoing server ali bitno je složiti dobar kod)
+
+2.4 Potrebno je ugraditi jQuery validate skriptu koja će provjeriti dali je pravilno upisan email i ako nije izbaciti obavijest. Za ovu funkcionalnost implementiramo jQuery plugin https://jqueryvalidation.org/
+
+3. PHP funkcionalnost
+3.1 Potrebno je složiti malu PHP template strukturu header.php, footer.php, index.php presložite kod i nakon toga sa include međusobno povežite.
+
+3.2 Potrebno je napraviti malu bazu podataka pod nazivom ljeto2021 i u nju jednu tablicu koja se zove vijesti prema informacijama kao na slika-4
+
+3.3 Potrebno je prikazati 3 vijesti na index.php kao na slika-5 koje klikom vode svaka na sebe u datoteci vijest.php 
+
+3.4 Potrebno je na klik pročitaj više na svaku vijest da se otvori
+vijest.php sa izgledom kao na slika-6 znači template je isti kao index.php samo sve ispod maknite, ostavite samo footer.
+U vijest.php prikažite sadržaj vijesti kao na slika-6 ali i formu sa elementima za uređivanje vijesti. Znači postojeće vijesti ovako uređujemo a nove vijesti dodajemo kroz phpmyadmin kao na slika-7

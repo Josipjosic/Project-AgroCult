@@ -1,0 +1,5 @@
+Vaši podaci su: 
+ - Pero Perić
+ - peroperic@gmail.com
+ - 0913593562
+ - Ovo je test poruka, provjeravamo radi li scripta za prikupljanje podataka i spremanje istih u lok. dat. te provjera validate jquery-a 

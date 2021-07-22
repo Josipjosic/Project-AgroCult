@@ -1,0 +1,227 @@
+@import "./header";
+
+#divInfoNewsMain {    /*Div NEWS Main*/
+    width: 1200px;
+    margin: 5% auto 0 auto;
+
+    a {
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 20px 65px;
+        margin: 50px 0 0 250px;
+        background-color: $backgroundClr;
+        border: solid 2px $textColorMain;
+        font-weight: bold;
+        border-radius: 2px;
+      }
+      a:hover {
+          color: $textColorSec;
+      }
+  }
+
+    #divInfoNewsCol1{
+        width: 50%;
+        float: left;
+        
+        img {
+            margin: 3% 0% 0 5%;
+            width: 650px;
+            height: 400px;
+        }
+    }
+    #divInfoNewsCol2{
+        width: 40%;
+        float: right;
+        padding-left: 5%;
+    
+        h2 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 30px;
+            text-decoration: underline $textColorThr 5px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+       a {
+            padding: 10px 15px;
+            margin-top: 50px;
+        }
+         
+     }
+     #divNewsEditForm {
+         width: 1200px;
+         margin-left: 30%;
+
+         h1{
+            font-weight: bold;
+            text-transform: uppercase;
+         }
+         
+         p {
+             font-size: 18px;
+         }
+         #spremi, #delete {
+             border-radius: 5px 1px;
+             width: 100px;
+             height: 30px;
+             border-color: $textColorMain;
+             margin-right:10px;
+         }
+         #spremi:hover, #delete:hover {
+             background-color: $textColorMain;
+             color: #fff;
+         }
+         textarea {
+             border-radius: 5px 1px;
+             resize: none;
+         }
+         label {
+             font-weight: bold;
+            
+         }
+     }
+                        /*Div NEWS Main END*/
+    #divMainTabsWrap{           /*Div UI TABS Main */
+        height: 600px;
+        width: 1600px;
+        margin-top: 5%;
+        background-color: $backgroundClr;
+        color: white;
+        text-align: center;
+        h3 {
+            padding-top: 30px;
+            font-size: 30px;
+            text-transform: uppercase;
+            text-decoration: underline $textColorSec;
+        }
+    }                   /*Div UI TABS Main END*/
+    #divMainNewsWrap{               /*Div MAIN NEWS */
+        height: 550px;
+        margin-left: 15%;
+        background-color: $backgroundClr;
+        margin-top: 3%;
+        margin-bottom: 4%;
+    }   
+ #divMainNews {
+        width: 1500px;
+        padding-left: 8%;
+        padding-top: 10px;
+    .gridLastItem {
+            margin-right: 0 !important;
+     }
+    .gridCol3 {
+            border: white 1px solid;
+            width: 406px;
+            height: 347px;
+            float: left;
+            margin-right: 5.5%;
+
+        >h2 {
+                color: white;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 25px;
+                text-decoration: underline $textColorSec;
+            }
+            } 
+         ul {
+                list-style-type: none;
+            }  
+         >h2 {
+                color: #fff;
+                text-align: center;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 40px;
+                text-decoration: underline $textColorSec;
+            
+            }   
+         h4 {
+                color: #fff;
+                text-align: center;
+                text-decoration: underline;
+            }   
+         p {
+                text-align: center;
+                color: lightgray;
+                padding: 0 10px 0 10px;
+            }
+         a {
+                display: inline-block;
+                color: $textColorMain;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding: 15px 45px;
+                margin: 25px 0 20px 112px;
+                background-color: #fff;
+                border: solid 2px $textColorMain;
+                font-weight: bold;
+                border-radius: 2px;
+              }
+        a:hover {
+                color: #fff;
+                background-color: $textColorThr;
+                border-color: $textColorMain;
+            }
+
+          img {
+              text-align: center;
+          }
+        }
+    #divInsertFormWrap{
+        margin: 0 auto;
+        height: 600px;
+    }
+        #divInsertFormCol1 {
+            float: left;
+            width: 50%;
+
+            >img {
+                width: 900px;
+                height: 600px;
+            }
+        }
+        #divInsertFormCol2{
+            float: right;
+            width: 50%;
+            text-align: center;
+
+            h2 {
+                font-size: 75px;
+                margin-top: -25px;
+                
+            }
+            span {
+                color: $textColorSec;
+            }
+            input {
+                background-color: $backgroundClr;
+                width: 400px;
+                height: 75px;
+                border: none;
+                color: #fff;
+                padding-left: 20px;
+            }
+            textarea {
+                background-color: $backgroundClr;
+                width: 400px;
+                height: 75px;
+                border: none;
+                resize: none;
+                color: #fff;
+                padding-left: 20px;
+                padding-top: 30px;
+            }
+            #divInsertBtn input {
+                width: 100px;
+                padding: 0px;
+                height: 50px;
+                border-radius: 2px;
+            }
+         }
+  @import "./footer";

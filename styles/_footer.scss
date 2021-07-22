@@ -1,0 +1,61 @@
+#divFooterWrap {
+    background-color: $backgroundClr;
+    padding-top: 20px;
+    margin-top: 150px;
+    .gridLastItem {
+        margin-right: 0 !important;
+     }
+     .gridCol4 {
+        width: 300px;
+        height: 320px;
+        float: left;
+        margin-right: 3.5%;
+        >h2 {
+            color: $textColorSec;
+        }
+        >p {
+            color: #fff;
+        }
+        >a {
+            text-decoration: none;
+            list-style: none;
+            color: #fff;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        input {
+            background-color: lightgrey;
+            padding: 15px 0 15px 15px;
+            color: black;
+        }
+     }
+     .gridCol4Pages {
+        text-align: center;
+    }
+    .gridCol4Recent {
+        >p {
+            font-size: 12px;
+        }
+        span img {
+            float: left;
+            padding-right: 5px;
+        }
+    }
+     .listBoxStyle2 {
+         margin-left: 14.3%;
+     }
+     li {
+         list-style-type: none;
+     }
+     .gridCol4Newsletter >a {
+        display: inline-block;
+        color: #10181a;
+        text-decoration: none;
+        padding: 7px 25px;
+        margin: 25px 0 20px 2px;
+        background-color: $textColorSec;
+        font-weight: bold;
+        border-radius: 2px;
+    }
+    
+}

@@ -1,0 +1,10 @@
+1. Prijelom HTML CSS (gotovo)
+2. JS Flexslider (gotovo)
+2.2 JQuery UI Tabs (gotovo)
+2.3 PHP ispisivanje u lokalnu datoteku ( gotovo ) email ( upisan u kod ali zakomentiran  jer nije podešen u XAMPP-u )
+2.4 JQuery validate (gotovo)
+3 PHP 
+3.1 PHP template struktura (gotovo)
+3.2 SQL Baza podataka (gotovo)
+3.3 Index.php 3 vijesti (gotovo)
+3.4 Uređivanje vijesti (gotovo) -- (uređivanje vijesti radi normalno, osim kada pokušamo napraviti novu vijest pomoću edit forme, onda baci error na stranici, ali i dalje napravi novu vijest u bazi te se s njom može normalno raditi.) 
